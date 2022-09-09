@@ -38,4 +38,10 @@ class DepositCalculator {
         double scale = Math.pow(10, places);
         return Math.round(value * scale) / scale;
     }
+
+    public void getSomeFunction(){
+        int x = 2;
+        int y = 3;
+        System.out.println(x + y);
+    }
 }
